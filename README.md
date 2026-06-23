@@ -58,23 +58,17 @@ diabetes-risk-prediction/
 ## How to Run the App Locally
 
 ### 1. Clone the repository
-
-```md
 ```bash
-git clone
-https://github.com/debasmitabiswas2004-cyber/diabetes-risk-prediction.git
+git clone https://github.com/debasmitabiswas2004-cyber/diabetes-risk-prediction.git
 cd diabetes-risk-prediction
 ```
 
 ### 2. Install the required dependencies
-
-```md
 ```bash
 pip install -r requirements.txt
 ```
 
 ### 3. Run the Streamlit app
-
 ```bash
 python -m streamlit run app.py
 ```
