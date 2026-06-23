@@ -1,4 +1,4 @@
-# Diabetes Prediction App
+# Diabetes Risk Prediction App
 
 A machine learning web application built with **Python**, **Streamlit**, and a **Random Forest Classifier** to predict the likelihood of diabetes based on patient health parameters.
 
