@@ -79,6 +79,9 @@ python -m streamlit run app.py
 * **Dataset Used:** Pima Indians Diabetes Dataset
 * **Target:** Predict whether a person is diabetic or not based on diagnostic measurements
 
+## Live Demo
+[Click here to use the app](https://diabetes-risk-prediction-db.streamlit.app/)
+
 ## Disclaimer
 
 This application is built for **educational purposes only** and should **not** be used as a substitute for professional medical advice, diagnosis, or treatment.
