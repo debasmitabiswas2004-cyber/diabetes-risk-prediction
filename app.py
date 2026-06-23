@@ -6,7 +6,7 @@ import pandas as pd
 # Page configuration
 # -----------------------------
 st.set_page_config(
-    page_title="Diabetes Prediction App",
+    page_title="Diabetes Risk Prediction App",
     page_icon="🩺",
     layout="centered"
 )
@@ -19,8 +19,8 @@ model = joblib.load("models/diabetes_rf_model.pkl")
 # -----------------------------
 # App title and description
 # -----------------------------
-st.title("🩺 Diabetes Prediction App")
-st.write("Enter the patient details below to estimate diabetes risk using a trained Random Forest model.")
+st.title("🩺 Diabetes Risk Prediction App")
+st.write("This web app predicts the likelihood of diabetes based on patient health parameters using a trained Random Forest machine learning model")
 
 st.caption(
     "This project uses the Pima Indians Diabetes dataset. "
